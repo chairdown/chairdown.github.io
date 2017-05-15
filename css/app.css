@@ -1,18 +1,18 @@
-.heading{
-  font-size: 5em;
+.heading {
+  font-size: 6em;
 }
-.counter{
-  font-size: 4em;
+.counter {
+	font-size: 4em;
 }
-.roboto{
+.roboto {
   font-family: 'Roboto', sans-serif;
   color: white;
   font-weight: 200;
 }
-.content{
+.content {
   display:none;
   margin-top: 100px;
 }
-.glyphicon:hover{
+.glyphicon:hover {
   color:yellow;
 }
