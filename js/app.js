@@ -7,7 +7,7 @@ new Vue({
     days: 0,
     diff: 0,
     interval: 1000,
-    returnDate: '2017-05-15 23:00',
+    returnDate: '2017-11-26 12:00',
   },
   methods: {
     setDiff: function() {
@@ -37,7 +37,7 @@ new Vue({
 $('document').ready(function() {
   $('.content').fadeIn(4000);
   $('#app').tubular({
-    videoId: 'A9Tp5fl18Ho',
+    videoId: 'nXpaQlH_qtY',
     mute: false,
     start: 491
   });
