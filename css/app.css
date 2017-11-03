@@ -6,11 +6,11 @@
 }
 .roboto {
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: black;
   font-weight: 200;
 }
 .content {
-  display:none;
+  /* display:none; */
   margin-top: 100px;
 }
 .glyphicon:hover {

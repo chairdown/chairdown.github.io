@@ -20,25 +20,24 @@ new Vue({
       this.minutes = parseInt((this.diff / (1000 * 60)) % 60);
       this.hours = parseInt((this.diff / (1000 * 60 * 60)) % 24);
       this.days = parseInt((this.diff / (1000 * 60 * 60 * 24)));
-
     },
     updateTime: function() {
       this.diff = this.diff - this.interval;
       this.calculateTimeFromMillis();
     }
   },
-  ready: function() {
+  mounted: function() {
     moment.locale('dk');
     this.setDiff();
     setInterval(this.updateTime, this.interval);
   }
 });
 
-$('document').ready(function() {
-  $('.content').fadeIn(4000);
-  $('#app').tubular({
-    videoId: 'nXpaQlH_qtY',
-    mute: false,
-    start: 491
-  });
-});
+// $('document').ready(function() {
+//   $('.content').fadeIn(4000);
+//   $('#app').tubular({
+//     videoId: 'nXpaQlH_qtY',
+//     mute: false,
+//     start: 491
+//   });
+// });
