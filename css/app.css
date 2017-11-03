@@ -16,3 +16,20 @@
 .glyphicon:hover {
   color:yellow;
 }
+
+#animate {
+  animation: 15s linear 0s infinite slidein;
+}
+
+img {
+    border-radius: 5px;
+}
+
+@keyframes slidein {
+  from {
+    transform:  translate(-100%, 0);
+  }
+  to {
+    transform: translate(100%, 0);
+  }
+}
