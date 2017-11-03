@@ -7,7 +7,7 @@ new Vue({
     days: 0,
     diff: 0,
     interval: 1000,
-    returnDate: '2017-11-26 12:00',
+    returnDate: '2017-11-17 12:00',
   },
   methods: {
     setDiff: function() {
