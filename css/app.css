@@ -2,6 +2,10 @@ html {
   overflow: hidden;
 }
 
+#app {
+  overflow: hidden;
+}
+
 .heading {
   font-size: 6em;
 }

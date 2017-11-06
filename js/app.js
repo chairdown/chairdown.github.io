@@ -32,12 +32,3 @@ new Vue({
     setInterval(this.updateTime, this.interval);
   }
 });
-
-// $('document').ready(function() {
-//   $('.content').fadeIn(4000);
-//   $('#app').tubular({
-//     videoId: 'nXpaQlH_qtY',
-//     mute: false,
-//     start: 491
-//   });
-// });
